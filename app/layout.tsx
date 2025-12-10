@@ -9,14 +9,14 @@ export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXTAUTH_URL ?? 'http://localhost:3000'),
-  title: "The Scaler Agency | Gaming Incubator & Venture Platform",
+  title: "Scaler ventures | Gaming Incubator & Venture Platform",
   description: "Gaming incubator within a venture platform built to launch, scale and expand your IP with you.",
   icons: {
     icon: '/favicon.svg',
     shortcut: '/favicon.svg',
   },
   openGraph: {
-    title: "The Scaler Agency | Gaming Incubator & Venture Platform",
+    title: "Scaler ventures | Gaming Incubator & Venture Platform",
     description: "Gaming incubator within a venture platform built to launch, scale and expand your IP with you.",
     images: ['/og-image.png'],
     type: 'website',
