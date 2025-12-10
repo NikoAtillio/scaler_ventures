@@ -37,7 +37,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
             <Gamepad2 className="w-8 h-8 text-primary group-hover:scale-110 transition-transform" />
-            <span className="text-xl font-bold hidden sm:inline">The Scaler Agency</span>
+            <span className="text-xl font-bold hidden sm:inline">Scaler Ventures</span>
           </Link>
 
           {/* Desktop Navigation */}

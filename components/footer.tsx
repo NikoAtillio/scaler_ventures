@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <Gamepad2 className="w-8 h-8 text-primary" />
-              <span className="text-2xl font-bold">The Scaler Agency</span>
+              <span className="text-2xl font-bold">Scaler Ventures</span>
             </div>
             <p className="text-muted-foreground mb-4 max-w-md">
               Gaming incubator within a venture platform built to launch, scale and expand your IP with you.
@@ -96,7 +96,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border text-center">
           <p className="text-muted-foreground">
-            © {new Date().getFullYear()} The Scaler Agency. All rights reserved.
+            © {new Date().getFullYear()} Scaler Ventures. All rights reserved.
           </p>
         </div>
       </div>
