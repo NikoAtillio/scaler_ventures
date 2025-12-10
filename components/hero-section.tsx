@@ -32,7 +32,7 @@ export default function HeroSection() {
           <div className="flex items-center justify-center mb-6">
             <Gamepad2 className="w-12 h-12 text-primary mr-3" />
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">
-              The <span className="text-primary">Scaler</span> Agency
+              The <span className="text-primary">Scaler</span> Ventures
             </h1>
           </div>
           
