@@ -11,12 +11,6 @@ const partners = [
     url: '#',
   },
   {
-    name: 'Shufan Media',
-    description: 'Creative media production and content strategy',
-    logo: 'https://cdn.abacus.ai/images/7ee8ab99-cbac-4732-8aed-40a37533f117.png',
-    url: '#',
-  },
-  {
     name: 'Playforge Creative',
     description: 'Game trailers, ads, and creative production specialists',
     logo: 'https://cdn.abacus.ai/images/200718f2-941d-4049-ad7b-c015430c0cb9.png',
