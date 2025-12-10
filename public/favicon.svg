@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+<defs>
+<linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1"/>
+<stop offset="100%" style="stop-color:#a020f0;stop-opacity:1"/>
+</linearGradient>
+</defs>
+<rect width="256" height="256" fill="#0a0a0a"/>
+<path d="M180 60L140 60L100 60L80 60L80 90L100 90L120 90L120 110L80 110L60 110L60 146L80 146L100 146L100 166L80 166L60 166L60 196L80 196L120 196L156 196L176 196L176 166L156 166L136 166L136 146L176 146L196 146L196 110L176 110L156 110L156 90L176 90L196 90L196 60L180 60Z" fill="url(#grad)"/>
+</svg>

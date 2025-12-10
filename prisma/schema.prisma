@@ -1,0 +1,52 @@
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+model PitchSubmission {
+  id                String   @id @default(cuid())
+  name              String
+  email             String
+  companyName       String
+  gameDescription   String   @db.Text
+  developmentStage  String
+  message           String   @db.Text
+  attachmentPath    String?  // S3 cloud_storage_path for uploaded files
+  attachmentIsPublic Boolean @default(false)
+  createdAt         DateTime @default(now())
+  status            String   @default("new") // new, reviewed, contacted
+  
+  @@index([email])
+  @@index([createdAt])
+}
+
+model NewsletterSubscription {
+  id         String   @id @default(cuid())
+  email      String   @unique
+  subscribedAt DateTime @default(now())
+  active     Boolean  @default(true)
+  
+  @@index([email])
+}
+
+model BlogPost {
+  id          String   @id @default(cuid())
+  title       String
+  slug        String   @unique
+  excerpt     String   @db.Text
+  content     String   @db.Text
+  category    String   // industry, company, portfolio
+  imagePath   String?
+  published   Boolean  @default(false)
+  publishedAt DateTime?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@index([slug])
+  @@index([category])
+  @@index([published])
+}
